@@ -142,7 +142,7 @@ function getBannerList() {
 
 //添加到桌面相关的信息
 function addDesk() {
-			$('#enterImg').attr("src", "images/wjj.png");
+			$('#enterImg').attr("src", "https://shiwan163.github.io/images/wjj.png");
 			$('#enterTitle').html("<?=$public_r[sitename]?>");
 			$('#enterDiscribe').html("添加入口到桌面，永不走丢");
 			$('.add-icon-img').attr("src", "images/wjj.png");

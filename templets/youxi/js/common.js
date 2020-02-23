@@ -9,15 +9,15 @@ $(document).ready(function () {
     var nowType = sessionStorage.getItem('nowtype');
 
     $(".navbar-index").on("click", function () {
-        window.location.href = "index.html";
+        window.location.href = "https://shiwan163.github.io/index.html";
     });
 
     $(".navbar-recommend").on("click", function () {
-        window.location.href = "anzhuo/index.html";
+        window.location.href = "https://shiwan163.github.io/anzhuo/index.html";
     });
 
     $(".navbar-read").on("click", function () {
-        window.location.href = "yuedu/index.html";
+        window.location.href = "https://shiwan163.github.io/yuedu/index.html";
     });
 
     $(".gonlue-button").on("click", function () {
